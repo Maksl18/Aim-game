@@ -52,7 +52,7 @@ timeEl.innerHTML = `00:${value}`
 
 function finishGame() {
     timeEl.parentNode.remove()
-  board.innerHTML = `<h1>Счет: <span class="primary">${score}</span></h1>`
+  board.innerHTML = `<h1>Ваш результат: <span class="primary">${score}</span></h1>`
 }
 
 function createRandomCircle() {
